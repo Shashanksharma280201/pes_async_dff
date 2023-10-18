@@ -16,8 +16,8 @@ initial begin
 end
 
 initial begin
-	$dumpfile("dff_async_tb.vcd");
-        $dumpvars(0, dff_async_tb);
+	$dumpfile("pes_dff_async_tb.vcd");
+	$dumpvars(0, pes_dff_async_tb);
    repeat(100)
       begin
          stimulus();
