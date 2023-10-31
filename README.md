@@ -65,15 +65,15 @@ sky130_fd_sc_hd__typical.lib
 ```
 cd OpenLane/
 cd designs/
-mkdir iiitb_iiitb_tlc
-cd iiitb_iiitb_tlc/
+mkdir pes_dff_async
+cd pes_dff_async/
 wget https://raw.githubusercontent.com/majilokesh/iiitb_tlc/main/config.json
 mkdir src
 cd src/
 wget https://raw.githubusercontent.com/majilokesh/iiitb_tlc/main/iiitb_tlc.v
 cd ../../../
 sudo make mount
-./flow.tcl -design iiitb_tlc
+./flow.tcl -interactive
 ```
   
 ### STEPS RUNNING:
