@@ -217,7 +217,25 @@ The CTS (Clock Tree Synthesis) stage is responsible for creating a clock distrib
 ![Screenshot from 2023-10-31 19-46-21](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/cfb7d683-fe76-45f9-9589-11fc7d124c56)
 ![Screenshot from 2023-10-31 19-46-25](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/3d77187c-1d7d-4ddf-8589-a32c156b4ce7)
 
+## Routing stage:
+
+- The routing stage is responsible for creating the physical wire connections between the placed cells on the chip layout. This involves determining the paths for signal wires, power distribution, and clock signals, while adhering to design rules, avoiding congestion, and optimizing for various factors such as wirelength, signal delay, and power consumption.
+
+![Screenshot from 2023-10-31 23-13-52](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/7fc9a4bc-a0f8-47c9-bebd-7b4a93749a2a)
+
+```
+magic -T /home/shashank/OpenLane/pdk/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_dff_async.def &
+```
+![Screenshot from 2023-10-31 23-15-07](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/898610d3-3086-4356-82de-5222e48d02f6)
+
+
+
 ### Magic Spice report
+
+- A "Magic Spice report" stage would suggest a point in the design flow where you are generating reports that combine information from Magic (layout design) and Spice (circuit simulation) tools. These reports might contain critical details about how the physical layout of the integrated circuit corresponds to its electrical behavior, helping designers identify and address any issues or validate the design.
+
+![Screenshot from 2023-10-31 23-16-25](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/4cc4f6cf-81d4-4de8-84a1-237f52908152)
+
 
 ![Screenshot from 2023-10-31 19-48-41](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/f142f93b-ea91-4670-a7c4-2d644f84a856)
 ![Screenshot from 2023-10-31 19-48-44](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/f68c7a61-6a5d-4d61-9952-2c48c4cd81f6)
@@ -225,6 +243,11 @@ The CTS (Clock Tree Synthesis) stage is responsible for creating a clock distrib
 
 
 ### magic antenna check 
+
+- The "magic antenna check" is essential for addressing reliability concerns and ensuring that the final chip design will not experience problems related to charge buildup and oxide damage, which could affect the functionality and longevity of the integrated circuit.
+
+![Screenshot from 2023-10-31 23-18-10](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/9b3aad7d-cdac-411a-be72-395b48e91eb0)
+
 
 ![Screenshot from 2023-10-31 19-50-57](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/9e7665d6-22d6-442c-8fa8-d737b43ca742)
 ![Screenshot from 2023-10-31 19-51-01](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/77fd6900-b521-4b35-b25a-dd158d4abe98)
