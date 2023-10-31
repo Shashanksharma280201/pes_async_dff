@@ -160,7 +160,27 @@ magic -T /home/shashank/openlane/pdks/sky130A/libs.tech/magic/sky130A.tech lef r
 ![3](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/70e9c2a0-7b52-4094-9199-4dc9eaad2ffc)
 
 
-### The reports generated are given below
+### Floorplan stage:
+![Screenshot from 2023-10-31 22-36-07](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/30708c23-3ce6-4a84-910c-6b31eb7079a5)
+
+```
+magic -T /home/shashank/OpenLane/pdk/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_dff_async.def &
+```
+
+![Screenshot from 2023-10-31 22-46-50](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/59fc8b10-e7ff-4132-93be-edb508fc9956)
+
+
+### Placement stage:
+![Screenshot from 2023-10-31 22-48-30](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/c2b91560-2872-42af-9fef-575f20a7c01c)
+```
+magic -T /home/shashank/OpenLane/pdk/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_dff_async.def &
+```
+![Screenshot from 2023-10-31 22-49-44](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/00bd8d88-8bb1-4e78-acad-4b1ad0a67d44)
+
+### Cts stage:
+![Screenshot from 2023-10-31 22-51-38](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/4a354bbf-843f-4a84-bd5f-336de575ee4a)
+
+- The reports generated are given below , after the run_cts command 
 
 ![Screenshot from 2023-10-31 19-45-44](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/fe5958c2-aaf2-4549-af80-1442e246c11a)
 ![Screenshot from 2023-10-31 19-45-51](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/874f1e08-6b57-47ba-a219-bda51d2c2f0d)
