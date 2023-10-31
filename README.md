@@ -9,7 +9,6 @@ In the context of digital design and hardware description languages (HDLs), "DFF
 
 <details>
   <summary>GLS </summary>
-
     <br>
 
 ## Code 
