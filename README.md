@@ -160,16 +160,27 @@ magic -T /home/shashank/openlane/pdks/sky130A/libs.tech/magic/sky130A.tech lef r
 
 ### The reports generated are given below
 
-![1](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/73feabe3-493b-4dd4-9c62-aec5a6e518cd)
-![2](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/d950e01f-1af4-4c2b-86f8-472c78622a82)
-![3](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/9de5e8cb-7551-4172-8442-4feafa22f955)
-![4](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/128e1469-7889-40c7-8bca-341dcf1da543)
-![5](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/0f29ce62-d6e0-44f1-af62-56f209578af2)
-![6](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/d81993a8-cdfa-46ca-a90b-12496af44859)
-![7](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/8d672c1e-a434-4567-a2dd-088c975b5865)
+![Screenshot from 2023-10-31 19-45-44](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/fe5958c2-aaf2-4549-af80-1442e246c11a)
+![Screenshot from 2023-10-31 19-45-51](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/874f1e08-6b57-47ba-a219-bda51d2c2f0d)
+![Screenshot from 2023-10-31 19-45-57](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/af857d12-4fdc-4540-89f4-1f8b3f69d0ec)
+![Screenshot from 2023-10-31 19-46-03](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/9fe8e5f2-d0a7-4f89-a1ff-4cbf27b8a6e0)
+![Screenshot from 2023-10-31 19-46-08](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/07893715-193f-416f-8d63-075e748bcffa)
+![Screenshot from 2023-10-31 19-46-13](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/6145438b-466e-4988-963a-f134bcbed995)
+![Screenshot from 2023-10-31 19-46-21](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/cfb7d683-fe76-45f9-9589-11fc7d124c56)
+![Screenshot from 2023-10-31 19-46-25](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/3d77187c-1d7d-4ddf-8589-a32c156b4ce7)
+
+### Magic Spice report
+
+![Screenshot from 2023-10-31 19-48-41](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/f142f93b-ea91-4670-a7c4-2d644f84a856)
+![Screenshot from 2023-10-31 19-48-44](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/f68c7a61-6a5d-4d61-9952-2c48c4cd81f6)
+![Screenshot from 2023-10-31 19-48-49](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/7502a6b9-c416-4b88-9b7b-7cc314cdf989)
 
 
+### magic antenna check 
 
+![Screenshot from 2023-10-31 19-50-57](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/9e7665d6-22d6-442c-8fa8-d737b43ca742)
+![Screenshot from 2023-10-31 19-51-01](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/77fd6900-b521-4b35-b25a-dd158d4abe98)
+![Screenshot from 2023-10-31 19-51-05](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/7f4eb9cf-2add-42b3-a8bb-efd638db0fc6)
 
 
 
