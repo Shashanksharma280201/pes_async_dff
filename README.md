@@ -34,7 +34,7 @@ In the context of digital design and hardware description languages (HDLs), "DFF
 
 </details>
 
-# Openlane2 installation : 
+## Openlane2 installation 
 - Follow [Openlane2](https://github.com/Shashanksharma280201/openlane_2_installation) to install openlane2 , magic , spice , NIX and Docker 
 
 <details>
