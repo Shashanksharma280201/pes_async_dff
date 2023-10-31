@@ -152,12 +152,15 @@ run_netgen
 run_magic_antenna_check
 ```
 
-### To see the layout we use a tool called magic which we installed earlier.Type the following command in the terminal opened in the path to your design/runs/latest run folder/results/final/def/
+## Synthesis stage:
+Synthesis is a fundamental stage in the digital design flow. It takes an abstract hardware description and generates a netlist consisting of logical gates and flip-flops that represent the desired functionality of the design.
 
-```
-magic -T /home/shashank/openlane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../../tmp/merged.nom.lef def read pes_dff_async.def &
-```
-![3](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/70e9c2a0-7b52-4094-9199-4dc9eaad2ffc)
+![Screenshot from 2023-10-31 23-09-08](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/7f036e86-b5be-4e42-b41c-16bcbc2cae9a)
+
+- Area report
+
+![Screenshot from 2023-10-31 23-10-14](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/084ec341-d0d7-4e6e-8888-fecb74474205)
+
 
 
 ## Floorplan stage:
@@ -227,6 +230,13 @@ The CTS (Clock Tree Synthesis) stage is responsible for creating a clock distrib
 ![Screenshot from 2023-10-31 19-51-01](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/77fd6900-b521-4b35-b25a-dd158d4abe98)
 ![Screenshot from 2023-10-31 19-51-05](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/7f4eb9cf-2add-42b3-a8bb-efd638db0fc6)
 
+
+### To see the layout we use a tool called magic which we installed earlier.Type the following command in the terminal opened in the path to your design/runs/latest run folder/results/final/def/
+
+```
+magic -T /home/shashank/openlane/pdks/sky130A/libs.tech/magic/sky130A.tech lef read ../../../tmp/merged.nom.lef def read pes_dff_async.def &
+```
+![3](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/70e9c2a0-7b52-4094-9199-4dc9eaad2ffc)
 
 
 </details>
