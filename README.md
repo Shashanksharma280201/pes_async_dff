@@ -8,7 +8,7 @@ In the context of digital design and hardware description languages (HDLs), "DFF
 
 
 <details>
-  <summary>GLS </summary>
+  <summary>GLS process</summary>
     <br>
 
 ## Code 
@@ -37,7 +37,10 @@ In the context of digital design and hardware description languages (HDLs), "DFF
 # Openlane2 installation : 
 Follow [Openlane2](https://github.com/Shashanksharma280201/openlane_2_installation) to install openlane2 , magic and spice
 
-
+<details>
+  <summary> PD process  </summary>
+    <br>
+</details>
 
 
 
