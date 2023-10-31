@@ -8,9 +8,9 @@ In the context of digital design and hardware description languages (HDLs), "DFF
 
 
 <details>
-  <summary>
+  <summary>GLS </summary>
+
     <br>
- 
 
 ## Code 
 ![Screenshot from 2023-10-19 00-33-23](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/d9093e5f-a1c7-4c83-91df-e7cd96484e7e)
@@ -33,7 +33,6 @@ In the context of digital design and hardware description languages (HDLs), "DFF
 
 ![Screenshot from 2023-10-19 00-29-31](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/36c52c62-38fd-4371-83e4-1753f18617c4)
 
- </summary>
 </details>
 
 # Openlane2 installation : 
