@@ -7,6 +7,11 @@ In the context of digital design and hardware description languages (HDLs), "DFF
 - **Asynchronous (Async):** In the context of D Flip-Flops and sequential circuits, "asynchronous" refers to a situation where the clock signal is not used to control the operation of the flip-flop. Instead, the flip-flop responds immediately to changes on its data input, irrespective of the clock signal. Asynchronous operation can be used in certain situations where the timing and synchronization requirements are different from those in synchronous systems. However, asynchronous designs can be more complex and challenging to analyze due to potential hazards and timing issues.
 
 
+
+## Openlane2 installation 
+- Follow [Openlane2](https://github.com/Shashanksharma280201/openlane_2_installation) to install openlane2 , magic , spice , NIX and Docker 
+
+
 <details>
   <summary>GLS process</summary>
     <br>
@@ -33,9 +38,6 @@ In the context of digital design and hardware description languages (HDLs), "DFF
 ![Screenshot from 2023-10-19 00-29-31](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/36c52c62-38fd-4371-83e4-1753f18617c4)
 
 </details>
-
-## Openlane2 installation 
-- Follow [Openlane2](https://github.com/Shashanksharma280201/openlane_2_installation) to install openlane2 , magic , spice , NIX and Docker 
 
 <details>
   <summary> PD process  </summary>
