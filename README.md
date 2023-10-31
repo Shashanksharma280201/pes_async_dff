@@ -160,7 +160,11 @@ magic -T /home/shashank/openlane/pdks/sky130A/libs.tech/magic/sky130A.tech lef r
 ![3](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/70e9c2a0-7b52-4094-9199-4dc9eaad2ffc)
 
 
-### Floorplan stage:
+## Floorplan stage:
+
+The floorplan stage in digital integrated circuit design involves creating a high-level layout for the chip, defining the core area, the locations of I/O pads, and other critical structures. It establishes the overall physical framework for the chip design and serves as a foundation for subsequent stages such as placement and routing. During the floorplan stage, designers make decisions about the chip's dimensions, aspect ratio, power grid, and other essential aspects to meet the project's requirements. The goal is to efficiently allocate space for various components while adhering to design constraints, ultimately ensuring that the chip will meet its performance, power, and area goals.
+
+
 ![Screenshot from 2023-10-31 22-36-07](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/30708c23-3ce6-4a84-910c-6b31eb7079a5)
 
 ```
@@ -170,14 +174,33 @@ magic -T /home/shashank/OpenLane/pdk/sky130A/libs.tech/magic/sky130A.tech lef re
 ![Screenshot from 2023-10-31 22-46-50](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/59fc8b10-e7ff-4132-93be-edb508fc9956)
 
 
-### Placement stage:
+## Placement stage:
+
+The placement stage in digital integrated circuit design involves determining the physical positions of synthesized logic cells on the chip's layout. This critical step aims to optimize the arrangement of cells to minimize wirelength, meet design constraints, and achieve desired performance. Placement typically involves global placement, which provides a rough layout, followed by legalization to ensure cells conform to design rules and spacing requirements. The outcome of this stage is a physical placement file that specifies the coordinates of each cell, serving as the basis for subsequent routing and design verification steps. Efficient placement is essential for optimizing area, power, and signal timing in the final chip design.
+
 ![Screenshot from 2023-10-31 22-48-30](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/c2b91560-2872-42af-9fef-575f20a7c01c)
 ```
 magic -T /home/shashank/OpenLane/pdk/sky130A/libs.tech/magic/sky130A.tech lef read ../../tmp/merged.nom.lef def pes_dff_async.def &
 ```
 ![Screenshot from 2023-10-31 22-49-44](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/00bd8d88-8bb1-4e78-acad-4b1ad0a67d44)
 
-### Cts stage:
+## Cts stage:
+
+The CTS (Clock Tree Synthesis) stage is responsible for creating a clock distribution network that ensures reliable and synchronized clock signals reach all the sequential elements (like flip-flops) in the chip. This stage involves the following key steps:
+
+- Buffer Insertion: The CTS process inserts buffers into the clock network to balance and distribute the clock signal evenly. Buffers help in reducing clock skew, ensuring that all parts of the chip receive clock signals simultaneously.
+
+- Clock Tree Construction: The clock tree is constructed by connecting the buffers in a hierarchical fashion from the global clock source (e.g., a PLL or external input) to the leaf-level cells throughout the chip.
+
+- Skew Minimization: The CTS stage aims to minimize clock skew, which is the variation in arrival times of the clock signal at different points in the design. Minimizing skew ensures that all registers see the same clock edge simultaneously, which is crucial for proper circuit operation.
+
+- Power Optimization: CTS also involves power optimization techniques to reduce dynamic and static power consumption in the clock distribution network.
+
+- Constraints and Timing: It takes into consideration the design constraints related to clock paths, such as clock-to-q requirements, setup and hold times, and other timing considerations.
+
+- Clock Gating: Clock gating cells may be inserted in the clock tree to save power when certain parts of the chip are not in use, and the clock can be temporarily disabled.
+
+
 ![Screenshot from 2023-10-31 22-51-38](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/4a354bbf-843f-4a84-bd5f-336de575ee4a)
 
 - The reports generated are given below , after the run_cts command 
