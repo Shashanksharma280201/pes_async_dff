@@ -43,7 +43,7 @@ In the context of digital design and hardware description languages (HDLs), "DFF
   <summary> PD process  </summary>
     <br>
 - First create a folder in you Openlane/design directory and save your design there.
-- First create a folder in you Openlane/design directory and save your design there.
+  
 ![Screenshot from 2023-10-31 18-50-25](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/958823c8-007a-4b45-aa74-66af1aa6a34a)
 
 - Then create a folder named 'src' and save the main verilog code in that folder too and also save it outside the folder as well , with the verilog code also save the
