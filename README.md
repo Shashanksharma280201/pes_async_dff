@@ -261,6 +261,8 @@ magic -T /home/shashank/openlane/pdks/sky130A/libs.tech/magic/sky130A.tech lef r
 ```
 ![3](https://github.com/Shashanksharma280201/pes_async_dff/assets/79470436/70e9c2a0-7b52-4094-9199-4dc9eaad2ffc)
 
+
+## Statistics
 - Area: 33.782 um2
 - Internal Power: 2.22e-06
 - Switching Power: 3.37e-07
